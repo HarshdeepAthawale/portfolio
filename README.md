@@ -1,7 +1,7 @@
 # Harshdeep Athawale · Portfolio
 
 
-A personal portfolio website showcasing my skills, projects, and background in cybersecurity and full-stack development built with TypeScript.
+A personal portfolio website showcasing my skills, projects, and background in cybersecurity.
 
 ---
 
@@ -26,8 +26,8 @@ Add real screenshots once available.
 
 ## 💻 Built With
 
-- **Framework:** 
-- **Language:** TypeScript, JavaScript
+- **Framework:** Next.js, React, Radix UI
+- **Language:** TypeScript, JavaScript, CSS
 - **Styling:** Tailwind CSS
 - **Hosting:** Vercel
 
