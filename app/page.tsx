@@ -127,7 +127,9 @@ export default function Page() {
               <div className="text-gray-700 dark:text-gray-300">
                 Network Security, SIEM(Security Information and Event Management)
               </div>
-
+               <div className="text-gray-600 dark:text-gray-400">Designing Tools:</div>
+              <div className="text-gray-700 dark:text-gray-300">Figma, Canva</div>
+              
               <div className="text-gray-600 dark:text-gray-400">Other Tools:</div>
               <div className="text-gray-700 dark:text-gray-300">Git, GitHub, AutoCAD</div>
             </div>
