@@ -41,5 +41,3 @@ Add real screenshots once available.
 - Theme switcher (light/dark mode)
 
 ---
-
-
