@@ -125,7 +125,7 @@ export default function Page() {
 
               <div className="text-gray-600 dark:text-gray-400">Specializations:</div>
               <div className="text-gray-700 dark:text-gray-300">
-                Network Security, Penetration Testing, Ethical Hacking, Incident Response
+                Network Security, SIEM(Security Information and Event Management
               </div>
 
               <div className="text-gray-600 dark:text-gray-400">Other Tools:</div>
