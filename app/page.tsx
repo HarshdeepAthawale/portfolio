@@ -110,22 +110,22 @@ export default function Page() {
 
             <div className="grid grid-cols-[180px_1fr] gap-y-6">
               <div className="text-gray-600 dark:text-gray-400">Languages:</div>
-              <div className="text-gray-700 dark:text-gray-300">Python, C, Bash Scripting</div>
+              <div className="text-gray-700 dark:text-gray-300">Python, C</div>
 
               <div className="text-gray-600 dark:text-gray-400">Security Tools:</div>
               <div className="text-gray-700 dark:text-gray-300">
-                Nmap, Wireshark, Burp Suite, Metasploit, OWASP ZAP, Nessus
+                Nmap, Wireshark, Burp Suite, Metasploit, OWASP ZAP
               </div>
 
               <div className="text-gray-600 dark:text-gray-400">Platforms & OS:</div>
-              <div className="text-gray-700 dark:text-gray-300">Linux, Windows, Kali Linux, VMware</div>
+              <div className="text-gray-700 dark:text-gray-300">Windows, Kali Linux, VMware</div>
 
               <div className="text-gray-600 dark:text-gray-400">Cloud Security:</div>
-              <div className="text-gray-700 dark:text-gray-300">Microsoft Azure, AWS Security</div>
+              <div className="text-gray-700 dark:text-gray-300">Microsoft Azure</div>
 
               <div className="text-gray-600 dark:text-gray-400">Specializations:</div>
               <div className="text-gray-700 dark:text-gray-300">
-                Network Security, SIEM(Security Information and Event Management
+                Network Security, SIEM(Security Information and Event Management)
               </div>
 
               <div className="text-gray-600 dark:text-gray-400">Other Tools:</div>
@@ -153,7 +153,7 @@ export default function Page() {
               </div>
               <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4">
                 <li>
-                  Contributed to the Organizing Team for HACKOWASP 7.0, a premier national-level hackathon with 500+
+                  Contributed to the Organizing Team for HACKOWASP 7.0, a premier national-level hackathon with 3000+
                   participants.
                 </li>
                 <li>Collaborated with cross-functional teams to manage event logistics and participant support.</li>
