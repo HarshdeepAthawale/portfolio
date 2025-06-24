@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
 import { ThemeToggle } from "./components/theme-toggle"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function Page() {
   return (
@@ -49,9 +50,17 @@ export default function Page() {
 
           {/* Hero Section */}
           <section className="mb-20 max-w-3xl">
-            <p className="text-gray-600 dark:text-gray-400 mb-2">hi there 👋, I'm</p>
-            <h1 className="text-5xl font-bold mb-2">Harshdeep Athawale</h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">19, he/him</p>
+            <div className="flex items-center mb-4">
+              <Avatar className="h-20 w-20 mr-6">
+                <AvatarImage src="/speech.jpg.jpeg" alt="Harshdeep Athawale" />
+                <AvatarFallback>HA</AvatarFallback>
+              </Avatar>
+              <div>
+                <p className="text-gray-600 dark:text-gray-400 mb-2">hi there 👋, I'm</p>
+                <h1 className="text-5xl font-bold mb-2">Harshdeep Athawale</h1>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">19, he/him</p>
+              </div>
+            </div>
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
               Passionate about cybersecurity, ethical hacking, and building secure network infrastructures.
             </p>
