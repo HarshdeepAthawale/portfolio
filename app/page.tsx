@@ -120,7 +120,7 @@ export default function Page() {
               <div className="text-gray-600 dark:text-gray-400">Platforms & OS:</div>
               <div className="text-gray-700 dark:text-gray-300">Windows, Kali Linux, VMware</div>
 
-              <div className="text-gray-600 dark:text-gray-400">Cloud Security:</div>
+              <div className="text-gray-600 dark:text-gray-400">Cloud & Deployment:</div>
               <div className="text-gray-700 dark:text-gray-300">Microsoft Azure, Vercel</div>
 
               <div className="text-gray-600 dark:text-gray-400">Specializations:</div>
