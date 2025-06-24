@@ -121,7 +121,7 @@ export default function Page() {
               <div className="text-gray-700 dark:text-gray-300">Windows, Kali Linux, VMware</div>
 
               <div className="text-gray-600 dark:text-gray-400">Cloud Security:</div>
-              <div className="text-gray-700 dark:text-gray-300">Microsoft Azure</div>
+              <div className="text-gray-700 dark:text-gray-300">Microsoft Azure, Vercel</div>
 
               <div className="text-gray-600 dark:text-gray-400">Specializations:</div>
               <div className="text-gray-700 dark:text-gray-300">
@@ -131,7 +131,7 @@ export default function Page() {
               <div className="text-gray-700 dark:text-gray-300">Figma, Canva</div>
               
               <div className="text-gray-600 dark:text-gray-400">Other Tools:</div>
-              <div className="text-gray-700 dark:text-gray-300">Git, GitHub, AutoCAD</div>
+              <div className="text-gray-700 dark:text-gray-300">Git, GitHub, AutoCAD, Visual Studio Code</div>
             </div>
           </section>
 
