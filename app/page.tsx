@@ -109,7 +109,6 @@ export default function Page() {
               network security. I love diving into networks, analyzing traffic, and using tools to uncover hidden
               insights.I'm currently studying Computer Engineering at Thapar Institute while actively contributing to the OWASP
               Student Chapter.
-          
             </p>
           </section>
 
