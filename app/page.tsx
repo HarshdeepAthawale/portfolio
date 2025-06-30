@@ -107,9 +107,9 @@ export default function Page() {
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
               Hey! I'm a cybersecurity enthusiast with a keen interest in ethical hacking, penetration testing, and
               network security. I love diving into networks, analyzing traffic, and using tools to uncover hidden
-              insights. My expertise lies in Python, C, and various security tools like Nmap, Wireshark, and Burp Suite.
-              I'm currently studying Computer Engineering at Thapar Institute while actively contributing to the OWASP
+              insights. I'm currently studying Computer Engineering at Thapar Institute while actively contributing to the OWASP
               Student Chapter.
+       
             </p>
           </section>
 
