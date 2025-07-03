@@ -20,11 +20,7 @@ Check out the live site: **https://harshdeepathawale-tech.vercel.app/**
 ![Projects](./assets/projects.png)
 Add real screenshots once available.
 -->
-![Screenshot 2025-07-03 134021](https://github.com/user-attachments/assets/e7ec6f15-9212-45a6-a435-15b21ff18585)
-![Screenshot 2025-07-03 134048](https://github.com/user-attachments/assets/a3f87c75-6081-4464-8131-5295455e8c8b)
-
-
-
+![image](https://github.com/user-attachments/assets/4b11b302-4a64-4b89-8c89-ba26facbad14)
 
 ---
 

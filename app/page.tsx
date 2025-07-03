@@ -105,7 +105,11 @@ export default function Page() {
           <section className="mb-20 max-w-3xl">
             <h2 className="text-xl font-medium mb-6 text-gray-600 dark:text-gray-400">about me.</h2>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            Sophomore at Thapar Institute of Engineering and Technology (TIET), pursuing Computer Engineering. A passionate cybersecurity enthusiast with a keen interest in network security, Azure cloud technologies, and ethical hacking. Currently serving as an Executive Member at the OWASP Student Chapter, where I actively engage in learning and contributing to the cybersecurity community.
+              Hey! I'm a cybersecurity enthusiast with a keen interest in ethical hacking, penetration testing, and
+              network security. I love diving into networks, analyzing traffic, and using tools to uncover hidden
+              insights. My expertise lies in Python, C, and various security tools like Nmap, Wireshark, and Burp Suite.
+              I'm currently studying Computer Engineering at Thapar Institute while actively contributing to the OWASP
+              Student Chapter.
             </p>
           </section>
 
