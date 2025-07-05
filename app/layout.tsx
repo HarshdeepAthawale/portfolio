@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Harshdeep Athawale - Cybersecurity Enthusiast",
   description: "Computer Engineering student passionate about cybersecurity, ethical hacking, and network security",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
@@ -19,9 +19,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
-      <Suspense fallback={null}>{children}</Suspense>
-      <Analytics />
-    </>
+    <html lang="en">
+      <body>
+        <Suspense fallback={null}>{children}</Suspense>
+        <Analytics />
+      </body>
+    </html>
   )
 }
