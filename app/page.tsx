@@ -10,37 +10,37 @@ export default function Page() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header/Navigation */}
-      <header className="flex justify-between items-center mb-16">
-        <div>
+      <header className="flex flex-col sm:flex-row justify-between items-center mb-16 space-y-4 sm:space-y-0">
+        <div className="w-full flex justify-between items-center sm:w-auto">
           <Link
             href="/"
             className="flex items-center hover:scale-105 transition-transform duration-300 ease-in-out"
           >
-            <span className="text-2xl font-bold tracking-tight text-black dark:text-white">harshdeep.</span>
+            <span className="text-2xl sm:text-2xl font-bold tracking-tight text-black dark:text-white">harshdeep.</span>
           </Link>
         </div>
-        <nav className="flex items-center space-x-8">
+        <nav className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-8 w-full sm:w-auto">
           <Link
             href="#experience"
-            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-base sm:text-base"
           >
             experience
           </Link>
           <Link
             href="#skills"
-            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-base sm:text-base"
           >
             skills
           </Link>
           <Link
             href="#projects"
-            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-base sm:text-base"
           >
             projects
           </Link>
           <Link
             href="#certifications"
-            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-base sm:text-base"
           >
             certifications
           </Link>
@@ -50,27 +50,27 @@ export default function Page() {
 
       {/* Hero Section */}
       <section className="mb-20 max-w-3xl">
-        <div className="flex items-center mb-4">
-          <Avatar className="h-20 w-20 mr-6">
+        <div className="flex flex-col sm:flex-row items-center mb-4 space-y-4 sm:space-y-0">
+          <Avatar className="h-20 w-20 mr-0 sm:mr-6 mb-4 sm:mb-0">
             <AvatarImage src="/speech.jpg.jpeg" alt="Harshdeep Athawale" />
             <AvatarFallback>HA</AvatarFallback>
           </Avatar>
-          <div>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">hi there 👋, I'm</p>
-            <h1 className="text-5xl font-bold mb-2">Harshdeep Athawale</h1>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">19, he/him</p>
+          <div className="text-center sm:text-left">
+            <p className="text-gray-600 dark:text-gray-400 mb-2 text-base sm:text-base">hi there 👋, I'm</p>
+            <h1 className="text-3xl sm:text-5xl font-bold mb-2">Harshdeep Athawale</h1>
+            <p className="text-gray-600 dark:text-gray-400 mb-4 text-base sm:text-base">19, he/him</p>
           </div>
         </div>
-        <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
+        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 mb-8 text-center sm:text-left">
           Passionate about cybersecurity, cloud computing, and building secure network infrastructures.
         </p>
-        <div className="flex space-x-4 items-center justify-start">
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 items-center justify-start">
           <Button
             asChild
             variant="outline"
-            className="flex items-center justify-center border-gray-300 dark:border-gray-700 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105"
+            className="flex items-center justify-center border-gray-300 dark:border-gray-700 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 w-full sm:w-auto"
           >
-            <Link href="https://drive.google.com/file/d/1bm1IEtqYeuJzmlxbFYkBIElps0njEpok/view?usp=sharing" passHref legacyBehavior>
+            <Link href="https://drive.google.com/file/d/1aI-MZtfBqBIkoN-znWdjAOTBXp1O7wjo/view?usp=sharing" passHref legacyBehavior>
               <a target="_blank" rel="noopener noreferrer" className="flex items-center">Resume</a>
             </Link>
           </Button>
@@ -219,22 +219,22 @@ export default function Page() {
       <section id="projects" className="mb-20 max-w-3xl">
         <h2 className="text-xl font-medium mb-6 text-gray-600 dark:text-gray-400">projects.</h2>
         <div className="space-y-8">
-          <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative">
+          <div className="border-l border-gray-300 dark:border-gray-800 pl-4 sm:pl-8 relative">
             <div className="absolute w-3 h-3 bg-gray-400 dark:bg-gray-700 rounded-full -left-[6.5px] top-1"></div>
-            <div className="flex justify-between items-start mb-2">
+            <div className="flex flex-col sm:flex-row justify-between items-start mb-2 space-y-2 sm:space-y-0">
               <div>
                 <h3 className="text-lg font-medium">🔗 Personal Portfolio Website</h3>
                 <p className="text-gray-600 dark:text-gray-400 mt-1">Personal Project</p>
               </div>
               <span className="text-gray-500">2025</span>
             </div>
-            <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4">
+            <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4 text-base sm:text-base">
               <li>Designed and built a personal portfolio using V0 (AI UI builder) and Cursor (AI coding IDE).</li>
               <li>Developed with TypeScript, JavaScript, and CSS using a component-based structure.</li>
               <li>Used Git for version control and pushed the code to GitHub.</li>
               <li>Deployed on Vercel with automated CI/CD for fast and reliable hosting.</li>
             </ul>
-            <div className="flex space-x-4 mt-4">
+            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mt-4">
               <Link 
                 href="https://harshdeepathawale-tech.vercel.app/" 
                 target="_blank" 
@@ -253,22 +253,22 @@ export default function Page() {
           </div>
 
           {/* DoS/DDoS Attack Detector Project */}
-          <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative">
+          <div className="border-l border-gray-300 dark:border-gray-800 pl-4 sm:pl-8 relative">
             <div className="absolute w-3 h-3 bg-gray-400 dark:bg-gray-700 rounded-full -left-[6.5px] top-1"></div>
-            <div className="flex justify-between items-start mb-2">
+            <div className="flex flex-col sm:flex-row justify-between items-start mb-2 space-y-2 sm:space-y-0">
               <div>
                 <h3 className="text-lg font-medium">🔒 DoS/DDoS Attack Detector</h3>
                 <p className="text-gray-600 dark:text-gray-400 mt-1">Personal Project</p>
               </div>
               <span className="text-gray-500">2025</span>
             </div>
-            <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4">
+            <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4 text-base sm:text-base">
               <li>Built a real-time network traffic monitor to detect DoS and DDoS attacks.</li>
               <li>Implemented detection for UDP flood, ICMP flood, and Slowloris attacks using Python.</li>
               <li>Developed an interactive Flask dashboard with live traffic stats, alert logs, and dark/light mode.</li>
               <li>Deployed locally with simple setup; detection thresholds customizable via <code>analysis.py</code>.</li>
             </ul>
-            <div className="flex space-x-4 mt-4">
+            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mt-4">
               <Link 
                 href="https://github.com/HarshdeepAthawale/DOS-DDOS-Attack-Detector" 
                 target="_blank" 
