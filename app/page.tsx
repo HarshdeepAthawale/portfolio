@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { GithubIcon, LinkedinIcon, Mail } from "lucide-react"
 import Link from "next/link"
 import { ThemeToggle } from "./components/theme-toggle"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import Image from "next/image"
 
 export default function Page() {
   return (
@@ -56,7 +55,7 @@ export default function Page() {
             <AvatarFallback>HA</AvatarFallback>
           </Avatar>
           <div className="text-center sm:text-left">
-            <p className="text-gray-600 dark:text-gray-400 mb-2 text-base sm:text-base">hi there 👋, I'm</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-2 text-base sm:text-base">hi there 👋, I&apos;m</p>
             <h1 className="text-3xl sm:text-5xl font-bold mb-2">Harshdeep Athawale</h1>
             <p className="text-gray-600 dark:text-gray-400 mb-4 text-base sm:text-base">19, he/him</p>
           </div>
@@ -99,7 +98,7 @@ export default function Page() {
                 size="icon"
                 className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-md"
               >
-                <Github className="h-5 w-5" />
+                <GithubIcon className="h-5 w-5" />
               </Button>
             </Link>
             <Link href="https://linkedin.com/in/harshdeepathawale" target="_blank">
@@ -108,7 +107,7 @@ export default function Page() {
                 size="icon"
                 className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-md"
               >
-                <Linkedin className="h-5 w-5" />
+                <LinkedinIcon className="h-5 w-5" />
               </Button>
             </Link>
           </div>
@@ -157,6 +156,23 @@ export default function Page() {
       {/* Experience Section */}
       <section id="experience" className="mb-20 max-w-3xl">
         <h2 className="text-xl font-medium mb-6 text-gray-600 dark:text-gray-400">experience.</h2>
+
+        <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative mb-12">
+          <div className="absolute w-3 h-3 bg-gray-400 dark:bg-gray-700 rounded-full -left-[6.5px] top-1"></div>
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <h3 className="text-lg font-medium">Core Member</h3>
+              <p className="text-gray-600 dark:text-gray-400">
+                at{" "}
+                <Link href="#" className="underline">
+                  Google Developer Student Club GDSC Thapar
+                </Link>
+              </p>
+            </div>
+            <span className="text-gray-500">July 2025 - Present</span>
+          </div>
+          <p className="text-gray-600 dark:text-gray-400">Technical Department</p>
+        </div>
 
         <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative mb-12">
           <div className="absolute w-3 h-3 bg-gray-400 dark:bg-gray-700 rounded-full -left-[6.5px] top-1"></div>

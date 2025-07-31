@@ -2,10 +2,8 @@
 
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail } from "lucide-react"
-import { useState } from "react"
 
 export default function AnimationExamples() {
-  const [selectedAnimation, setSelectedAnimation] = useState<string | null>(null)
 
   return (
     <div className="space-y-12">
