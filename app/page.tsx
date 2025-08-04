@@ -69,7 +69,7 @@ export default function Page() {
             variant="outline"
             className="flex items-center justify-center border-gray-300 dark:border-gray-700 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 w-full sm:w-auto"
           >
-            <Link href="https://drive.google.com/file/d/1aI-MZtfBqBIkoN-znWdjAOTBXp1O7wjo/view?usp=sharing" passHref legacyBehavior>
+            <Link href="https://drive.google.com/file/d/1bm1IEtqYeuJzmlxbFYkBIElps0njEpok/view?usp=sharing" passHref legacyBehavior>
               <a target="_blank" rel="noopener noreferrer" className="flex items-center">Resume</a>
             </Link>
           </Button>
