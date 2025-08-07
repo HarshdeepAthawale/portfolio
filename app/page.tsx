@@ -118,7 +118,7 @@ export default function Page() {
       <section className="mb-20 max-w-3xl">
         <h2 className="text-xl font-medium mb-6 text-gray-600 dark:text-gray-400">about me.</h2>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-          Sophomore at Thapar Institute of Engineering and Technology (TIET), pursuing Computer Engineering. A passionate cybersecurity enthusiast with a keen interest in network security and cloud computing. Currently serving as an Executive Member at the OWASP Student Chapter, where I actively engage in learning and contributing to the cybersecurity community. Currently preparing for the CCNA certification exam to strengthen my networking fundamentals and practical skills.
+          Sophomore at Thapar Institute of Engineering and Technology (TIET), pursuing Computer Engineering. A passionate cybersecurity learner with a keen interest in network security and cloud computing. Currently serving as an Executive Member at the OWASP Student Chapter, where I actively engage in learning and contributing to the cybersecurity community. Also, a Core Member at Google Developer Student Club (GDSC) Thapar, collaborating on technical initiatives and developer-focused events. Focused on Blue Team and SOC roles.Currently preparing for the CCNA certification exam to strengthen my networking fundamentals and practical skills.
         </p>
       </section>
 
@@ -188,6 +188,7 @@ export default function Page() {
             </div>
             <span className="text-gray-500">Oct 2024 - Present</span>
           </div>
+          <p className="text-gray-600 dark:text-gray-400">Cybersecurity Department</p>
           <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2 mt-4">
             <li>
               Contributed to the Organizing Team for HACKOWASP 7.0, a premier national-level hackathon with 3000+
@@ -335,10 +336,11 @@ export default function Page() {
           <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative">
             <div className="absolute w-3 h-3 bg-gray-400 dark:bg-gray-700 rounded-full -left-[6.5px] top-1"></div>
             <div className="flex justify-between items-start">
-              <h3 className="text-lg font-medium">Career Essentials in Generative AI</h3>
-              <span className="text-gray-500">Jul 2024</span>
+              <h3 className="text-lg font-medium">Pre Security</h3>
+              <span className="text-gray-500">Aug 2025</span>
             </div>
-            <p className="text-gray-600 dark:text-gray-400">Microsoft & LinkedIn</p>
+            <p className="text-gray-600 dark:text-gray-400">TryHackMe</p>
+            <p className="text-gray-500 text-sm mt-1">Credential ID: THM-177VROM240</p>
           </div>
 
           <div className="border-l border-gray-300 dark:border-gray-800 pl-8 relative">

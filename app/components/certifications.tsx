@@ -25,11 +25,11 @@ const certifications = [
     skills: ["Digital Marketing", "Ad Search"],
   },
   {
-    title: "Career Essentials in Generative AI",
-    issuer: "Microsoft & LinkedIn",
-    date: "Jul 2024",
-    credentialId: "",
-    skills: ["Generative AI", "AI Applications"],
+    title: "Pre Security",
+    issuer: "TryHackMe",
+    date: "Aug 2025",
+    credentialId: "THM-177VROM240",
+    skills: ["Cybersecurity", "Network Security", "Security Fundamentals"],
   },
 ]
 
