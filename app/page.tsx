@@ -51,7 +51,7 @@ export default function Page() {
       <section className="mb-20 max-w-3xl">
         <div className="flex flex-col sm:flex-row items-center mb-4 space-y-4 sm:space-y-0">
           <Avatar className="h-20 w-20 mr-0 sm:mr-6 mb-4 sm:mb-0">
-            <AvatarImage src="/speech.jpg.jpeg" alt="Harshdeep Athawale" />
+            <AvatarImage src="/good pic.jpg" alt="Harshdeep Athawale" />
             <AvatarFallback>HA</AvatarFallback>
           </Avatar>
           <div className="text-center sm:text-left">
