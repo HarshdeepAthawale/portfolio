@@ -132,7 +132,7 @@ export default function Page() {
 
           <div className="text-gray-600 dark:text-gray-400">Security Tools:</div>
           <div className="text-gray-700 dark:text-gray-300">
-            Nmap, Wireshark, Burp Suite, OWASP ZAP
+            Nmap, Wireshark, Burp Suite, OWASP ZAP, LOIC
           </div>
 
           <div className="text-gray-600 dark:text-gray-400">Platforms & OS:</div>
